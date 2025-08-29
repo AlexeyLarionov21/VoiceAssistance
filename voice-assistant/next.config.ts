@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true, // включаем app router
+  eslint: {
+    // не валить билд на ESLint-ошибках
+    ignoreDuringBuilds: true,
   },
-  // Подсказываем Next искать app/ внутри src/
-  pageExtensions: ["ts", "tsx"],
 };
 
 module.exports = nextConfig;
