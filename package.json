@@ -1,8 +1,14 @@
 {
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.12",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.12",
-    "undici": "^7.15.0"
+    "next": "14.x || 15.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "undici": "^6",
+    "socks-proxy-agent": "^8"
   }
 }
